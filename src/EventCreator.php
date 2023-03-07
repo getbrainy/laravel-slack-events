@@ -99,6 +99,7 @@ class EventCreator
         'link_shared' => LinkShared::class,
         'message' => Message::class,
         'message.channels' => MessageChannels::class,
+        'message.channel' => MessageChannels::class,
         'message.groups' => MessageGroups::class,
         'message.im' => MessageIm::class,
         'message.mpim' => MessageMpim::class,
