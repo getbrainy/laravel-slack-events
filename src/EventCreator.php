@@ -52,6 +52,7 @@ use Lisennk\LaravelSlackEvents\Events\SubteamUpdated;
 use Lisennk\LaravelSlackEvents\Events\TeamDomainChange;
 use Lisennk\LaravelSlackEvents\Events\TeamJoin;
 use Lisennk\LaravelSlackEvents\Events\TeamRename;
+use Lisennk\LaravelSlackEvents\Events\TokensRevoked;
 use Lisennk\LaravelSlackEvents\Events\UrlVerification;
 use Lisennk\LaravelSlackEvents\Events\UserChange;
 
@@ -116,6 +117,7 @@ class EventCreator
         'team_domain_change' => TeamDomainChange::class,
         'team_join' => TeamJoin::class,
         'team_rename' => TeamRename::class,
+        'tokens_revoked' => TokensRevoked::class,
         'url_verification' => UrlVerification::class,
         'user_change' => UserChange::class,
     ];
